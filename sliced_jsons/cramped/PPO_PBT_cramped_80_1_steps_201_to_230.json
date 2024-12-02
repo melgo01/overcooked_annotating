@@ -1,0 +1,271 @@
+{
+    "ep_observations": [
+        [
+            {
+                "players": [
+                    {
+                        "position": [
+                            3,
+                            1
+                        ],
+                        "orientation": [
+                            1,
+                            0
+                        ]
+                    },
+                    {
+                        "position": [
+                            2,
+                            1
+                        ],
+                        "orientation": [
+                            0,
+                            -1
+                        ]
+                    }
+                ],
+                "objects": [
+                    {
+                        "name": "dish",
+                        "position": [
+                            3,
+                            0
+                        ]
+                    },
+                    {
+                        "name": "soup",
+                        "position": [
+                            2,
+                            0
+                        ],
+                        "state": [
+                            "onion",
+                            1,
+                            0
+                        ]
+                    }
+                ],
+                "order_list": null
+            },
+            {
+                "players": [
+                    {
+                        "position": [
+                            3,
+                            1
+                        ],
+                        "orientation": [
+                            1,
+                            0
+                        ]
+                    },
+                    {
+                        "position": [
+                            2,
+                            1
+                        ],
+                        "orientation": [
+                            1,
+                            0
+                        ]
+                    }
+                ],
+                "objects": [
+                    {
+                        "name": "dish",
+                        "position": [
+                            3,
+                            0
+                        ]
+                    },
+                    {
+                        "name": "soup",
+                        "position": [
+                            2,
+                            0
+                        ],
+                        "state": [
+                            "onion",
+                            1,
+                            0
+                        ]
+                    }
+                ],
+                "order_list": null
+            },
+            {
+                "players": [
+                    {
+                        "position": [
+                            3,
+                            1
+                        ],
+                        "orientation": [
+                            1,
+                            0
+                        ]
+                    },
+                    {
+                        "position": [
+                            1,
+                            1
+                        ],
+                        "orientation": [
+                            -1,
+                            0
+                        ]
+                    }
+                ],
+                "objects": [
+                    {
+                        "name": "dish",
+                        "position": [
+                            3,
+                            0
+                        ]
+                    },
+                    {
+                        "name": "soup",
+                        "position": [
+                            2,
+                            0
+                        ],
+                        "state": [
+                            "onion",
+                            1,
+                            0
+                        ]
+                    }
+                ],
+                "order_list": null
+            },
+            {
+                "players": [
+                    {
+                        "position": [
+                            3,
+                            1
+                        ],
+                        "orientation": [
+                            1,
+                            0
+                        ]
+                    },
+                    {
+                        "position": [
+                            1,
+                            1
+                        ],
+                        "orientation": [
+                            -1,
+                            0
+                        ]
+                    }
+                ],
+                "objects": [
+                    {
+                        "name": "dish",
+                        "position": [
+                            3,
+                            0
+                        ]
+                    },
+                    {
+                        "name": "soup",
+                        "position": [
+                            2,
+                            0
+                        ],
+                        "state": [
+                            "onion",
+                            1,
+                            0
+                        ]
+                    }
+                ],
+                "order_list": null
+            }
+        ]
+    ],
+    "ep_rewards": [
+        [
+            0,
+            0,
+            0,
+            0
+        ]
+    ],
+    "ep_actions": [
+        [
+            [
+                [
+                    1,
+                    0
+                ],
+                [
+                    1,
+                    0
+                ]
+            ],
+            [
+                [
+                    1,
+                    0
+                ],
+                [
+                    -1,
+                    0
+                ]
+            ],
+            [
+                [
+                    1,
+                    0
+                ],
+                [
+                    -1,
+                    0
+                ]
+            ],
+            [
+                [
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    1
+                ]
+            ]
+        ]
+    ],
+    "mdp_params": [
+        {
+            "layout_name": "cramped_room",
+            "num_items_for_soup": 3,
+            "rew_shaping_params": null,
+            "cook_time": 20,
+            "start_order_list": null
+        }
+    ],
+    "rewards_data": {
+        "sparse_rewards": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "shaped_rewards": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "step_rewards": [
+            0,
+            0,
+            0,
+            0
+        ]
+    }
+}
